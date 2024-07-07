@@ -12,6 +12,7 @@ class Circle implements Shape{
 	 * 
 	 * @param point Stores the origin/starting coordinates 
 	 * @param radius of the circle
+  	 * @param date to show the date and time when the object is created.
 	 */
 	public Circle(Point point, double radius, Date date) {
 		this.point = point;
