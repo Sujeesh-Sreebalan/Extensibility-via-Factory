@@ -12,7 +12,8 @@ class Square implements Shape {
 	 * Constructor of the class
 	 * 
 	 * @param point point Stores the origin/starting coordinates 
-	 * @param side 
+	 * @param side of the square
+    	 * @param date to show the date and time when the object is created.
 	 */
 	public Square(Point point, double side, Date date) {
 		this.point = point;
