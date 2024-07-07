@@ -14,6 +14,7 @@ class Rectangle implements Shape {
 	 * @param point Stores the origin/starting coordinates 
 	 * @param length of the rectangle
 	 * @param breadth of the rectangle
+    	 * @param date to show the date and time when the object is created.
 	 */
 	public Rectangle(Point point, double length, double breadth, Date date) {
 		this.breadth = breadth;
