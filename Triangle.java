@@ -14,6 +14,7 @@ class Triangle implements Shape{
 	 * @param point point Stores the origin/starting coordinates
 	 * @param base of the triangle
 	 * @param height of the triangle
+    	 * @param date to show the date and time when the object is created.
 	 */
 	public Triangle(Point point, double base, double height, Date date) {
 		this.point = point;
